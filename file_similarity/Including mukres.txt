@@ -1,0 +1,5 @@
+1) Open the folder "munkres-1.0.6".
+2) Open the Command Prompt in this folder.
+3) In Command Prompt type the following commands to include "munkres" in python:
+	->python setup.py build
+	->python setup.py install
