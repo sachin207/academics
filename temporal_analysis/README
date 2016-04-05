@@ -1,0 +1,16 @@
+/*****************************************************************************/
+/* 									README									 */
+/*																			 */
+/* Author	: M.Pavan Kumar, M.Rohit Reddy, Raj Kripal, Sachin Jaiswal		 */
+/* Roll		: CS12B1025, CS12B1022, ES12B1007, CS12B1033					*/
+/* Topic	: Providing Temporal Feedback About Product Manufacturers in E-Commerce Site */
+/*																			 */
+/*****************************************************************************/
+
+/////////////How to Execute//////////////
+
+-> Import the 'camera_db.sql' file loacted in database folder in the Database
+
+-> Upload all the files in the Server and configure the Server.
+
+-> Change the config.php according to the system setting.
