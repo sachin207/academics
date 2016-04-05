@@ -1,11 +1,7 @@
-/*****************************************************************************/
-/* 									README									 */
-/*																			 */
-/* Author	: M.Pavan Kumar, M.Rohit Reddy, Raj Kripal, Sachin Jaiswal		 */
-/* Roll		: CS12B1025, CS12B1022, ES12B1007, CS12B1033					*/
-/* Topic	: Providing Temporal Feedback About Product Manufacturers in E-Commerce Site */
-/*																			 */
-/*****************************************************************************/
+The project aim at providing temporal feedback about different products of a manufracturer. It is system that can help them analyze the product manu-
+facturer performance based on the product rating recorded.
+
+for their products.
 
 /////////////How to Execute//////////////
 
