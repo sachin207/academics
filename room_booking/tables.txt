@@ -1,0 +1,35 @@
+#users
+
+CREATE TABLE IF NOT EXISTS users (
+		id int AUTO_INCREMENT,
+		name char(30),
+		password text,
+		phone char(20),
+		email char(30),
+		level char(10),
+		primary key(id));
+
+#rooms
+
+CREATE TABLE IF NOT EXISTS rooms (
+		id int AUTO_INCREMENT,
+		number char(10),
+		capacity smallint unsigned,
+		projector tinyint(1) unsigned default 0,
+		primary key(id));
+
+CREATE TABLE IF NOT EXISTS bookings (
+		id int AUTO_INCREMENT,
+		userid int NOT NULL,
+		roomid int NOT NULL,
+		bookingtime timestamp NOT NULL DEFAULT NOW(),
+		lastupdate timestamp NOT NULL DEFAULT NOW() ON UPDATE NOW(),
+		starttime timestamp NOT NULL,
+		endtime timestamp NOT NULL,
+		purpose text DEFAULT 'No description given',
+		repetition char(15),
+		PRIMARY KEY(id),
+		FOREIGN KEY(userid) REFERENCES users(id) ON DELETE CASCADE ON UPDATE CASCADE,
+		FOREIGN KEY(roomid) REFERENCES rooms(id) ON DELETE CASCADE ON UPDATE CASCADE
+		);
+		

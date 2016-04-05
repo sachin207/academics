@@ -1,0 +1,111 @@
+body
+	{
+	background-color:#f0f0f0;
+	}
+.heading
+	{
+	margin-top:50px;
+	margin-left:400px;
+	font-family:"New Times Roman";
+	color:#000000;
+	}
+.search_box
+	{
+	margin-top:-28px;
+	margin-left:1100px;
+	}
+.form
+	{
+	margin-top:30px;
+	margin-left:500px;
+	width:500px;
+	height:100px;
+	font-family:"New Times Roman";
+	color:#f00000;
+	}
+.form_table
+	{
+	color:#0000f0;
+	}
+.navigation
+	{
+	background-color:#E0E0E0;
+	margin-top:-25px;
+	margin-left:-8px;
+	width:230px;
+	height:120%;
+	font-family:"Californian FB";
+	font-size:23px;
+	color:#00266D;
+	float:left;
+	}
+.navigation_list
+	{
+	color:#E0E0E0;
+	}
+a:link
+	{
+	color:#00266D;
+	text-decoration:none;
+	}
+a:visited
+	{
+	color:#00266D;
+	}
+a:hover
+	{
+	color:red;
+	}
+a:active
+	{
+	color:darkred;
+	}
+.main_box
+	{
+	width:1166px;
+	margin-left:200px;
+	float:middle;
+	}
+.welcome
+	{
+	float:middle;
+	}
+.table
+	{
+	border:1;
+	}
+.t_heading
+	{
+	background-color:lightgray;
+	color:#000000;
+	}
+.t_content
+	{
+	text-align:center;
+	text-decoration:none;
+	}
+.h_table
+	{
+	float:middle;
+	}
+.search_room_form
+	{
+	margin-right:30px;
+	margin-top:15px;
+	}
+table.booking_form
+	{
+	font-size:20px;
+	}
+#user_details
+	{
+	margin-top:50px;
+	font-size:20px;
+	text-align:left;
+	}
+#form_table
+	{
+	margin-top:50px;
+	font-size:20px;
+	text-align:left;
+	}
